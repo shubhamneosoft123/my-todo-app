@@ -89,7 +89,7 @@ const clearList=()=>{
       </div>
 
     </form>
-    {list.length > 0 && (
+    {list > 0 && (
       <div style={{marginTop:"2rem"}}>
         <List items={list} removeItem={removeItem} editItem={editItem}/>
         <div className="text-center">
